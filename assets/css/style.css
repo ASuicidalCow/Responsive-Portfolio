@@ -1,7 +1,9 @@
-html {
+html *, *:before, *:after 
+{
+    
     box-sizing: border-box;
 }
-*, *:before, *:after 
+
 
 
 
@@ -254,21 +256,12 @@ body {
     padding-top: 30px;
     padding-bottom: 5px;
 }
-@media screen and (max-width:980px){
-   body{
-    background-color: inherit;
-   }
-}
-@media screen and (max-width:768px){
-   body{
-    background-color: inherit;
-   }
+@media screen and (max-width: 640px){
     
 }
-@media screen and (max-width: 640px){
-    .topnavBar .topnavContent body{
-        float: none;
-        width: 100%;
-        background-color: inherit;
-    }
+@media screen and (max-width:768px){
+
+}
+@media screen and (max-width:980px){
+  
 }
